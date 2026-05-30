@@ -1,0 +1,35 @@
+{
+  "name": "apartment-finder",
+  "version": "1.0.0",
+  "description": "A simple 3 tier full stack architecture with node, express, ES6(ESM modules) and mongo building an apartment finder website.",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swbehan/apartment-finder-web-dev.git"
+  },
+  "keywords": [],
+  "author": "Sean Behan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swbehan/apartment-finder-web-dev/issues"
+  },
+  "homepage": "https://github.com/swbehan/apartment-finder-web-dev#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.15.2",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.6.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
