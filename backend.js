@@ -1,4 +1,5 @@
 import express from "express";
+import listingsRouter from "./routes/listings.js";
 
 console.log("What's up backend?");
 
@@ -7,6 +8,8 @@ const PORT = process.env.PORT || 3000;
 
 // in express the way we serve static files is with the express app.use(express.static("folder-name"))
 app.use(express.static("frontend"));
+
+app.use("/api", listingsRouter);
 
 // second parameter is the function callback when the server is ready and running. 
 // The callback function you give will ONLY be called directly by express.
